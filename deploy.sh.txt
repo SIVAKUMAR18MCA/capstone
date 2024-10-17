@@ -1,5 +1,9 @@
 #!/bin/bash
 
+export DOCKER_USERNAME="your_docker_username"
+export DOCKER_PASSWORD="your_docker_password"
+export GIT_BRANCH="your_git_branch"
+
 docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
 
 # Check which branch is being built
